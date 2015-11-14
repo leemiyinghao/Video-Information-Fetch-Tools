@@ -4,7 +4,7 @@ from pymediainfo import MediaInfo
 from os import listdir
 from os.path import isdir
 
-videoSubFilenames = ['.mp4', '.mov', '.avi', '.wmv', '.mpg', '.vob', '.m2t', 'mpeg']
+videoSubFilenames = ['.mp4', '.mov', '.avi', '.wmv', '.mpg', '.vob', '.m2t', 'mpeg', 'mkv']
 
 def findVideosRecursively(path):
     returnList = []
